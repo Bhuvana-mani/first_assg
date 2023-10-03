@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.background {
+    background-image: url('my image/pexels-reinaldo-simoes-17836189.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: brown;
+}
+.content {
+    display: flex;
+  }
+
+.text-box {
+    background-color: #2e055e;
+    color: #fff;
+    font-size: x-small;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+  }
+
+.image-box {
+    margin-right: 1px;
+}
+
+.image-box img {
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.topic {
+    flex: 1;
+    background-color: rgb(53, 178, 245);
+    color: #815105;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.topic:hover p {
+    display: block;
+}
+
+.topic p {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-top-left-radius: 10px;
+}
